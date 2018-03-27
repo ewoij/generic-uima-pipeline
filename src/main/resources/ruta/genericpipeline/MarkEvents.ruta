@@ -1,0 +1,8 @@
+PACKAGE genericpipeline;
+
+WORDLIST eventList = 'event_list.txt';
+
+Document{-> MARKFAST(genericpipeline.Event, eventList)};
+
+// remove inclusions
+Item{PARTOFNEQ(genericpipeline.Event) -> UNMARK(genericpipeline.Event)};
