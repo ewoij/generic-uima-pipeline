@@ -26,13 +26,19 @@ Generated annotations:
         - Resources
             - word list taken from: ruta_resources/event_list.txt
 
+Input
+- Directory containing text files
+
+Output
+- XMI Files
+
 ## Usage
 
 1. Download and extract the application: https://github.com/ewoij/generic-uima-pipeline/releases/tag/v1.0.0
 2. Update if necessary the following files with your own domain terms:
     - ruta_resources/item_table.csv
     - ruta_resources/event_list.txt
-2. Run from the current directory
+3. Run from the current directory
     ```
     java -Xms4000m -jar generic-uima-pipeline-1.0.0-standalone.jar <input folder containing text files> <output folder>
     ```
