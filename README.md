@@ -1,4 +1,4 @@
-# generic pipeline
+# Generic UIMA pipeline
 
 Simple UIMA pipeline wrap as a console application annotating Sentences, Items and Events. The last ones are easily customisable by updating the current list of terms.
 
